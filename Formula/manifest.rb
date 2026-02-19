@@ -1,30 +1,30 @@
 class Manifest < Formula
   desc "Cryptographic receipts for AI agent tool calls"
   homepage "https://github.com/PortAuthorityHQ/manifest"
-  version "0.2.9"
+  version "0.2.10"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/PortAuthorityHQ/manifest/releases/download/v#{version}/manifest-aarch64-apple-darwin.tar.gz"
-      sha256 "cdd9ec2008757c57031723bc110079c3c26860541ed2a010de87c6b8f69e1634"
+      sha256 "ae0b783cf473c936498b1f58a00b8a449670c3fdf62c4b89d70a3bcf7a610781"
     end
 
     on_intel do
       url "https://github.com/PortAuthorityHQ/manifest/releases/download/v#{version}/manifest-x86_64-apple-darwin.tar.gz"
-      sha256 "9eb46b30b427c4cc182f5d57edcf10316926273dc7c01883a7adbd5601e99c49"
+      sha256 "ec7f55deaeaf6d8c61bc5af8acb1a1976e46673b147236d5f501272290117ddb"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/PortAuthorityHQ/manifest/releases/download/v#{version}/manifest-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3f0bb7ca198fc447f744f0d20681fa9de909268d44e3f887f61d8b5f76bfb46d"
+      sha256 "4c960a9e61dff03441691e4c0e308fef5646187a043cd37b59f7924794bde16f"
     end
 
     on_intel do
       url "https://github.com/PortAuthorityHQ/manifest/releases/download/v#{version}/manifest-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "34968236f2f8870de1f1bb78c29d2b6938afa75c11dabfe2cca48b7271c2723c"
+      sha256 "536308474a35f8bcfae7981331115c13928845bae4c208e24f84dfb142e9ec65"
     end
   end
 
